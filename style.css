@@ -1,0 +1,122 @@
+header{
+	display: flex;
+	border:	grey;
+	width: 100%;
+	height: 75px;
+}
+
+#menu{	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 200%;
+	color: grey;
+	border: 1px solid grey;
+	border-top: none;
+	border-left: none;
+	width: 125px;
+}
+
+#search{
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	color: grey;
+	border: 1px solid grey;
+	border-top: none;
+	border-left: none;
+}
+
+input{
+	width: 100%;
+}
+
+#add-person,
+#notes, #apps{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: grey;
+	border: 1px solid grey;
+	border-top: none;
+	border-left: none;
+	width: 125px;
+	margin-right: 0;
+}
+
+#apps{
+	border-right: none;
+}
+
+.main-menu{
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 35px;
+	line-height: .5;
+}
+
+.job-title-location
+span{
+	color: cyan;
+}
+
+#status-button,
+#bookmark-button,
+#edit-button,
+#trash-button{
+	margin:	5px;
+}
+
+nav{
+	flex-wrap: wrap;
+	color: lightgrey;
+	/*border-bottom: 3px solid lightgrey;*/
+	font-size: 12px;
+	font-weight: 700;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 25px;
+}
+
+nav:hover{
+	padding-bottom: 0;
+}
+
+nav div:hover{
+	border-bottom: 3px solid cyan;
+	color: black;
+	padding-bottom: 15px;
+}
+
+#notifications{
+	margin-right: 100px;
+}
+
+article{
+	background-color: #EDF2F6;
+	border-top: 3px solid lightgrey;
+	height: 100vh;
+}
+
+.circle-graphs{
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+	width: 50%;
+}
+
+#circle-graph-button,
+#bar-graph-button{
+	border-radius: 25px;
+	background-color: white;
+	outline: none;
+	padding: 7px;
+	border: 1px thin lightgrey;
+}
+
+.bar-graph{
+	display: inline-flex;
+}
