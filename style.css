@@ -1,0 +1,364 @@
+*{
+	font-family: 'Droid Sans', sans-serif;
+}
+
+header{
+	display: flex;
+	border:	grey;
+	width: 100vw;
+	height: 75px;
+}
+
+#menu{	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 200%;
+	color: grey;
+	border: 1px solid grey;
+	border-top: none;
+	border-left: none;
+	width: 125px;
+}
+
+#search{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: grey;
+	border: 1px solid grey;
+	border-top: none;
+	border-left: none;
+}
+
+#search input{
+	width: 100%;
+	border:	none;
+}
+
+#add-person,
+#notes, #apps{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: grey;
+	border: 1px solid grey;
+	border-top: none;
+	border-left: none;
+	width: 115px;
+	margin-right: 0;
+}
+
+#menu:hover, #add-person:hover,
+#notes:hover, #apps:hover{
+	background-color: #1DA1F2;
+	color: white;
+}
+
+#apps{
+	border-right: none;
+}
+
+.main-menu{
+	margin-left: 20px;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 35px;
+}
+
+.job-title-location
+span{
+	color: #45B8C5;
+}
+
+#status-button,
+#bookmark-button,
+#edit-button,
+#trash-button{
+	margin:	5px;
+	border-style: none;
+	border-radius: 100px;
+	height: 35px;
+	width: 35px;
+	background-color: white;
+	border: 1px solid grey;
+}
+
+#status-button{
+	width: 100px;
+	color: grey;
+	font-weight: 800;
+	font-size: 12px;
+	align-content: center;
+}
+
+nav{
+	margin-left: 15px;
+	flex-wrap: wrap;
+	color: lightgrey;
+	font-size: 12px;
+	font-weight: 700;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-option {
+	border-bottom: 3px solid white;
+	padding-bottom: 20px; 	
+}
+.nav-option:hover{
+	border-bottom: 3px solid #45B8C5;
+	color: black;
+}
+
+#notifications{
+	margin-right: 100px;
+}
+
+article{
+	display: flex;
+	background-color: #EDF2F6;
+	border-top: 3px solid lightgrey;
+	margin: auto;
+	height: 277px;
+	width: 100vw;
+}
+
+.circle-graphs{
+	margin-left: auto;
+	height: 275px;
+	width: 50%;
+}
+
+.circle-graphs div{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	zoom: 1.1;
+}
+
+.applicants-graph,
+.interviews-graph,
+.forwards-graph{
+	flex-direction: column;
+	padding: 50px;
+}
+
+.applicants-graph h4,
+.interviews-graph h4,
+.forwards-graph h4{
+	color: grey;
+	font-size: 13px;
+}
+
+.applicants-graph, h1, h4,
+.interviews-graph, h1, h4,
+.forwards-graph, h1, h4 {
+	margin: auto;
+}
+
+.zoom-circle{
+	zoom: 1;
+}
+
+section.bar-graph{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	height: 275px;
+	width: 50%;
+}
+
+.bar-graph img{
+	justify-content: center;
+	align-items: stretch;
+	margin: 0;
+	padding: 0 10px 5px;
+	height: 230px;
+	width: 90%
+}
+
+#circle-graph-button,
+#bar-graph-button{
+	align-content: center;
+	margin: auto;
+	border-radius: 25px;
+	background-color: white;
+	outline: none;
+	padding: 7px;
+	border: 1px thin lightgrey;
+	border-style: none;
+}
+
+.bottom-section{
+	background-color: #EDF2F6;	
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 100px;
+}
+
+table{
+	width: 55%;
+}
+
+th, th button{
+	background-color: #818793;
+	color: white;
+	font-size: 14px;
+}
+
+th button:enabled{
+	background-color: lightgrey;
+	border-style: none;
+}
+
+table, th, td{
+	/*border: 1px solid black;*/
+	border-collapse: collapse;
+	padding: 20px;
+	text-align: left;
+}
+
+th{
+	padding-left: 30px;
+}
+
+table{
+	width: 95%;
+}
+
+td#description{
+	padding-bottom: 95px;
+}
+
+td{
+	background-color: white;
+	border-bottom: 1px solid lightgrey;
+}
+
+#bottom-tr td{
+	border-bottom: none;
+}
+
+.social-button-upload-resume{
+	border-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin: 0;
+	height: 655px;
+	width: 25%;
+}
+
+.social-class{
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+}
+
+.social-class hr{
+	color: grey;
+	margin: 20px 0 20px 0;
+}
+
+.link-upload-copy{
+	margin: 0;
+}
+
+.social-button{
+	color: white;
+	margin-top: 0;
+	margin-bottom: 15px;
+	height: 105px;
+	border-style: none;
+}
+
+.facebook{
+	background-color: #3B5998;
+}
+
+.twitter{
+	background-color: #1DA1F2;
+}
+
+.linkedin{
+	background-color: #0077B5;
+}
+
+.text-area{
+	width: 100%;
+}
+
+textarea{
+	width: 75%;
+	border-style: outset;
+	white-space: nowrap;
+}
+
+.text-area,
+.copy-buttons{
+	background-color: #45B8C5;
+	border-style: none;
+	border-radius: 0 5px 5px 0;
+	color: white;
+	display: inline-flex;
+	font-size: 12px;
+	margin: auto;
+}
+
+div.text-area{
+	height: 70px;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+
+.block-line{
+	background-color: #EDF2F6;
+	display: flex;
+	padding-top: 25px;
+	padding-bottom: 40px;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.line{
+	background-color: #EDF2F6;
+	display: inline-block;
+	border: 1px solid grey;
+	height: 0;
+	width: 45%;
+}
+
+#line-button{
+	background-color: white;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	border-radius: 100px;
+}
+
+.div-table{
+	border: 1px solid lightgrey;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 65%;
+	background-color: white;
+}
+
+.table-header{
+	color: white;
+	display: inline-flex;
+	background-color: #3C4759;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.table-header div{
+	margin-left: 40px;
+}
+
