@@ -14,16 +14,99 @@ body{
 }
 
 .side-nav{
+	display: flex;
+	flex-direction: column;
 	background-color: #354052;
 	border-style: none;
 	margin: 0;
 	height: 1441px;
 	width: 12%;
-	/*margin-bottom: -829px;*/
 }
 
 .fix{
 	width: 88%;
+}
+
+.profile{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 173px;
+	border-bottom: 1px solid grey;
+	border-bottom-style: inset;
+	text-align: bottom;
+}
+
+#jules{
+	border-radius: 100px;
+	height: 100px;
+	width: 100px;
+	margin: 10px 10px;
+}
+
+.side-nav .profile h1{
+	font-size: 15px;
+}
+
+.side-nav h1{
+	color: grey;
+	font-size: 12px;
+}
+
+.side-nav h2{
+	color: lightgrey;
+	font-size: 14px;
+	padding: 5px 0 5px 0;
+}
+
+#side-main,
+#side-admin,
+#side-categories{
+	height: 225px;
+	border-bottom: 1px solid grey;
+	border-bottom-style: inset;
+	margin: 15px 0 15px 0;
+	padding-left: 15px;
+}
+
+#side-main h2:hover,
+#side-admin h2:hover{
+	background-color: #0b0c0e;
+	color: white;
+}
+
+h2 span{
+	margin-left: 10px;
+}
+
+#side-categories{
+	border-bottom: none;
+}
+
+#admin-box{
+	color: yellow;
+}
+
+#main{
+	height: 173px;
+	width: 173px;
+	border-bottom: 3px solid black;
+	border-bottom-style: inset;
+}
+
+#admin{
+	height: 173px;
+	width: 173px;
+	border-bottom: 3px solid black;
+	border-bottom-style: inset;
+}
+
+#categories{
+	height: 173px;
+	width: 173px;
+	border-bottom: 3px solid black;
+	border-bottom-style: inset;
 }
 
 #menu{	
@@ -70,6 +153,7 @@ body{
 #notes:hover, #apps:hover{
 	background-color: #1DA1F2;
 	color: white;
+	cursor: pointer;
 }
 
 #apps{
