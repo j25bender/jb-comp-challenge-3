@@ -260,8 +260,16 @@ article{
 
 h1.zoom-circle,
 h4.zoom-circle{
-	margin-top: -50px;
+	margin-top: -65px;
+    margin-right: 25px;
+}
 
+h1.zoom-circle{
+	font-size: 30px;
+}
+
+h4.zoom-circle{
+	font-size: 10px;
 }
 
 .zoom-circle{
