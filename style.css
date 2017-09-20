@@ -19,7 +19,7 @@ body{
 	background-color: #354052;
 	border-style: none;
 	margin: 0;
-	height: 1424px;
+	height: 1430px;
 	width: 12%;
 }
 
@@ -486,11 +486,102 @@ div.text-area{
 
 }
 
-@media only screen and (max-width: 1100px){
+@media only screen and (max-width: 1150px){
 
-	/*.zoom-circle,*/
-	.bar-graph{
+	body{
 		zoom: .70;
+		font-size: 2.5vh;
+	}
+
+	.social-button-upload-resume{
+		width: 65%;
+	}
+
+	.social-class{
+		height: 100%;
+	}
+
+	.circle-graphs,
+	.bar-graph{
+		zoom: .90;
+	}
+
+	textarea,
+	.copy-buttons{
+		height: 25px;
+	}
+
+	.side-nav{
+		height: 1585px;
 	}
 
 }
+
+@media only screen and (max-width: 900px){
+	.div-table{
+		width: 100%;
+	}
+
+	.circle-graphs,
+	.bar-graph{
+		zoom: .80;
+	}
+
+	.social-class{
+		height: 1000px;
+	}
+
+	textarea,
+	.copy-buttons{
+		height: 25px;
+	}
+
+	.side-nav{
+		height: 2025px;
+	}
+
+}
+
+@media only screen and (max-width: 800px){
+	.circle-graphs,
+	.bar-graph{
+		width: 100%;
+	}
+
+	.side-nav{
+		min-width: 120px;
+		height: 1700px;
+	}
+
+	article{
+		flex-direction: column;
+	}
+
+	.block-line{
+		padding-top: 175px;
+	}
+
+	.bar-graph,
+	.circle-graphs div{
+		justify-content: center;
+		align-self: center;
+	}
+
+
+	/*.bottom-section{
+		margin-bottom: 2000px;
+		flex-direction: row;
+	}
+
+	.social-class{
+		padding-top: 2000px;
+	}*/
+}
+
+/*@media only screen and (max-width: 800px){
+	.bottom-section{
+		flex-direction: row;
+	}
+
+
+}*/
