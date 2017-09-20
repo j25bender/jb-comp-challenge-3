@@ -252,6 +252,7 @@ article{
 }
 
 .circle-graphs{
+	flex-direction: row;
 	margin-left: auto;
 	height: 275px;
 	width: 50%;
@@ -517,15 +518,21 @@ div.text-area{
 
 	body{
 		zoom: .70;
-		font-size: 2.5vh;
+		/*font-size: 2.5vh;*/
 	}
 
 	.social-button-upload-resume{
-		width: 65%;
+		width: 50%;
+		padding-top: 20px;
 	}
 
 	.social-class{
 		height: 100%;
+		margin: auto;
+	}
+
+	.social-buttons{
+		min-height: 30px;
 	}
 
 	.circle-graphs,
@@ -540,6 +547,14 @@ div.text-area{
 
 	.side-nav{
 		height: 1585px;
+	}
+
+	.div-table{
+		margin-right: 20px;
+	}
+
+	.bottom-section{
+		padding: 25px;
 	}
 
 }
@@ -561,10 +576,32 @@ div.text-area{
 	textarea,
 	.copy-buttons{
 		height: 25px;
+
 	}
 
 	.side-nav{
 		height: 2025px;
+	}
+
+	.div-table{
+		width: 100%;
+	}
+
+	.bottom-section{
+		flex-direction: column;
+		padding: 25px;
+	}
+
+	.social-button-upload-resume{
+		margin: auto;
+	}
+
+	.side-nav{
+		display: none;
+	}
+
+	.fix{
+		width: 100%;
 	}
 
 }
@@ -594,21 +631,42 @@ div.text-area{
 		align-self: center;
 	}
 
-
-	/*.bottom-section{
-		margin-bottom: 2000px;
-		flex-direction: row;
+	.facebook{
+		margin-top: 20px;
 	}
-
-	.social-class{
-		padding-top: 2000px;
-	}*/
 }
 
-/*@media only screen and (max-width: 800px){
-	.bottom-section{
-		flex-direction: row;
+@media only screen and (max-width: 350px){
+	.circle-graphs{
+		display: block;
+		height: initial;
 	}
 
+	.zoom-circle h1, 
+	.zoom-circle h4{
+		zoom: .75;
+		margin-right: 40px;
+		margin-bottom: 120px;
+    	margin-top: -170px;
+	}
 
-}*/
+	.block-line{
+		padding: 20px;
+	}
+
+	article{
+		height: initial;
+	}
+
+	.circle-graphs div{
+		flex-direction: column;
+	}
+
+	#pie-chart{
+		width: initial;
+	}
+
+	.social-button-upload-resume{
+		width: 100%;
+	}
+}
