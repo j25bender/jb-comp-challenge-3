@@ -19,7 +19,7 @@ body{
 	background-color: #354052;
 	border-style: none;
 	margin: 0;
-	height: 1441px;
+	height: 1424px;
 	width: 12%;
 }
 
@@ -227,6 +227,10 @@ article{
 	width: 100%;
 }
 
+#pie-chart{
+	width: 175px;
+}
+
 .circle-graphs{
 	margin-left: auto;
 	height: 275px;
@@ -244,7 +248,7 @@ article{
 .interviews-graph,
 .forwards-graph{
 	flex-direction: column;
-	padding: 50px;
+	padding-left: 7px;
 }
 
 .applicants-graph h4,
@@ -254,10 +258,10 @@ article{
 	font-size: 13px;
 }
 
-.applicants-graph, h1, h4,
-.interviews-graph, h1, h4,
-.forwards-graph, h1, h4 {
-	margin: auto;
+h1.zoom-circle,
+h4.zoom-circle{
+	margin-top: -50px;
+
 }
 
 .zoom-circle{
@@ -316,7 +320,6 @@ th button:enabled{
 }
 
 table, th, td{
-	/*border: 1px solid black;*/
 	border-collapse: collapse;
 	padding: 20px;
 	text-align: left;
@@ -463,3 +466,20 @@ div.text-area{
 	margin-left: 40px;
 }
 
+/*@media only screen and (max-width: 1400px){
+
+	.zoom-circle,
+	.bar-graph{
+	zoom: .75;
+	}
+
+}
+
+@media only screen and (max-width: 1400px){
+
+	.zoom-circle,
+	.bar-graph{
+	zoom: .75;
+	}
+
+}*/
